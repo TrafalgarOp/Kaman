@@ -1,0 +1,26 @@
+# --- Firmware Build Artifacts ---
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+
+# --- KiCad Backups & Temporaries ---
+**/*.bak
+**/*-bak
+**/*.kicad_pcb-bak
+**/*.json
+**/*_autosave-*
+fp-info-cache
+
+# --- Altium Temporaries ---
+History/
+Project Logs*/
+__Previews/
+
+# --- IDE / Toolchain Local Settings ---
+.vscode/
+.idea/
+*.launch
+.mxproject
