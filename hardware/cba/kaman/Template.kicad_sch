@@ -1,0 +1,651 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b7abe575-2b7a-4e47-9046-9769d7102f9d")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 27.686 140.97)
+		(end 75.184 188.468)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33931be3-e09c-410c-817e-3ee7aeb0c0a4)
+	)
+	(rectangle
+		(start 85.09 140.97)
+		(end 132.588 188.468)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d5c0e18-d4e3-4cce-8f97-e246bcc01e58)
+	)
+	(rectangle
+		(start 85.09 84.074)
+		(end 132.588 131.572)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 54ced559-03c9-4ab1-ae68-982331d4e310)
+	)
+	(rectangle
+		(start 27.686 84.074)
+		(end 75.184 131.572)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a86bcc79-17ac-49fb-b6b8-6971feb23017)
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 166.624 61.468 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "0d3d6b83-1364-48ee-8ed9-8068ab0b7d2a")
+	)
+	(text "Revision Number"
+		(exclude_from_sim no)
+		(at 179.324 45.974 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "1e94bba1-6ae6-44bb-a856-bfe8e5760a56")
+	)
+	(text "Top View\n"
+		(exclude_from_sim no)
+		(at 51.308 80.264 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "20d49715-128e-4a7c-bfba-6f0542d7b8dc")
+	)
+	(text "Blank"
+		(exclude_from_sim no)
+		(at 36.576 46.482 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(href "#4")
+		)
+		(uuid "24aff5ca-423b-48bb-9297-42ca33107765")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 25.4 35.56 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(href "#2")
+		)
+		(uuid "2694c4dc-9ca7-4071-84a2-862a1d572a68")
+	)
+	(text "Project Architecture"
+		(exclude_from_sim no)
+		(at 47.498 41.148 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(href "#3")
+		)
+		(uuid "3328c9fe-ca6a-4730-930c-e84544a3b35e")
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "3486f564-5b5c-4909-a028-3486c6815dd4")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 43.434 35.814 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(href "#2")
+		)
+		(uuid "3928c725-d29f-4988-b73e-b8a488b6c1bf")
+	)
+	(text "Extra View\n"
+		(exclude_from_sim no)
+		(at 51.308 137.16 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "4a57245b-a108-4f4e-8339-24a31f9d0842")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 25.4 46.228 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(href "#4")
+		)
+		(uuid "4dfda1a2-dee7-49d6-a3e9-f70b173a7254")
+	)
+	(text "1\n"
+		(exclude_from_sim no)
+		(at 25.4 30.48 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(href "#1")
+		)
+		(uuid "4e74076a-b560-4ef1-b3b4-694dc23f4ecd")
+	)
+	(text "Date"
+		(exclude_from_sim no)
+		(at 257.048 30.48 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "5333f047-db1c-43ea-9bdb-f2a213755659")
+	)
+	(text "Board Name"
+		(exclude_from_sim no)
+		(at 146.812 18.288 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "783f42bf-3a06-4e5d-ba0c-f3d03eb9b9b8")
+	)
+	(text "Cover"
+		(exclude_from_sim no)
+		(at 36.576 30.734 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(href "#1")
+		)
+		(uuid "7dc8448e-ebe0-4de8-a019-f1343bfe0a5a")
+	)
+	(text "Revision Number"
+		(exclude_from_sim no)
+		(at 179.324 38.1 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "82fe1ca2-38c7-4d33-88b1-798e5358ef44")
+	)
+	(text "Date"
+		(exclude_from_sim no)
+		(at 257.048 46.482 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "832734bd-aa6b-4028-a62f-08c7ed1b9e89")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 36.068 25.654 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "91d015e4-080b-4b05-8e53-cc627f3bd48b")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 25.4 40.894 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(href "#3")
+		)
+		(uuid "93ae0fab-fe6c-4fad-af81-bae956737471")
+	)
+	(text "Bottom View\n"
+		(exclude_from_sim no)
+		(at 108.966 80.01 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "a3c09cd0-dfde-40e4-b9e9-8f08535601a8")
+	)
+	(text "Extra View\n"
+		(exclude_from_sim no)
+		(at 108.966 136.906 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "edcc2976-6144-4ec7-b261-3e1e10fed405")
+	)
+	(text "Date"
+		(exclude_from_sim no)
+		(at 257.048 38.608 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "f7b1ab92-01ad-4131-9fd1-3fc91b6805de")
+	)
+	(text "Revision Number"
+		(exclude_from_sim no)
+		(at 179.324 29.972 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "fecbd4e5-dd88-4542-b97d-2c37c0fd7e23")
+	)
+	(text_box "Design Note\n"
+		(exclude_from_sim no)
+		(at 228.6 120.142 0)
+		(size 20.32 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 165 0 0.6)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 165 0 0.6)
+			)
+			(justify left top)
+		)
+		(uuid "407d0db4-b78c-4418-b121-2b987dcd4505")
+	)
+	(text_box "Design Note\n"
+		(exclude_from_sim no)
+		(at 183.388 120.142 0)
+		(size 20.32 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 255 0.6117647059)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(color 0 0 255 0.61)
+			)
+			(justify left top)
+		)
+		(uuid "4e8fadcd-7773-4b67-8d06-3961f215bcc4")
+	)
+	(text_box "Design Note\n"
+		(exclude_from_sim no)
+		(at 205.994 120.142 0)
+		(size 20.32 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 255 0 0.7019607843)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 255 0 0.7)
+			)
+			(justify left top)
+		)
+		(uuid "5fab60d9-ce6c-404f-bb10-a9c1ff3470ad")
+	)
+	(text_box "Design Note\n"
+		(exclude_from_sim no)
+		(at 251.206 120.142 0)
+		(size 20.32 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 0.6)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 0 0 0.6)
+			)
+			(justify left top)
+		)
+		(uuid "90ab0351-8be7-46c1-a62f-8ccb9305c553")
+	)
+	(text_box "Design Note\n"
+		(exclude_from_sim no)
+		(at 160.782 120.142 0)
+		(size 20.32 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "c3729a31-4251-4c5b-8c38-3605b4cb3ad6")
+	)
+	(polyline
+		(pts
+			(xy 21.844 32.766) (xy 29.464 32.766)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0655845a-6358-4906-87d6-c2490d834a55")
+	)
+	(polyline
+		(pts
+			(xy 32.766 48.514) (xy 70.866 48.514)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0e0cd4b6-4e87-4a48-8b5c-5412accba74e")
+	)
+	(polyline
+		(pts
+			(xy 21.844 43.18) (xy 29.464 43.18)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5ab3aca9-a21f-4f93-9c92-af87f976c889")
+	)
+	(polyline
+		(pts
+			(xy 32.766 43.18) (xy 70.866 43.18)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8fe821b2-32d2-4cf5-8632-782d57f0e708")
+	)
+	(polyline
+		(pts
+			(xy 146.812 194.31) (xy 146.812 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a965df4a-de7e-473f-8d4c-260bca9d6502")
+	)
+	(polyline
+		(pts
+			(xy 21.844 48.514) (xy 29.464 48.514)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b324ad33-efab-4e60-aa1d-1c6152e1c6e8")
+	)
+	(polyline
+		(pts
+			(xy 146.812 53.086) (xy 146.812 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb99f60a-57f4-4ef4-946e-7a889d146faa")
+	)
+	(polyline
+		(pts
+			(xy 21.844 37.846) (xy 29.464 37.846)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d1434244-6350-4904-9c62-54f7331ea58f")
+	)
+	(polyline
+		(pts
+			(xy 146.812 25.146) (xy 146.812 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d692a164-1606-48b7-8d77-c53ac2fb94f0")
+	)
+	(polyline
+		(pts
+			(xy 21.844 27.686) (xy 29.464 27.686)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "dc6493b3-33a2-4497-b0fb-97977ec46045")
+	)
+	(polyline
+		(pts
+			(xy 32.766 32.766) (xy 70.866 32.766)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e7982381-1c14-47d6-855f-356f9891530a")
+	)
+	(polyline
+		(pts
+			(xy 32.766 37.846) (xy 70.866 37.846)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e85935ca-6c0a-4967-bcb6-5a86b40d33ac")
+	)
+	(polyline
+		(pts
+			(xy 32.766 27.686) (xy 70.866 27.686)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e93bee48-d7ae-4ed4-8742-207306a5f51b")
+	)
+	(sheet
+		(at 221.488 226.822)
+		(size 28.448 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28")
+		(property "Sheetname" "Project Architecture"
+			(at 221.488 226.1104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "project_architecture.kicad_sch"
+			(at 221.488 231.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 221.234 218.44)
+		(size 28.702 3.81)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f60c5075-700f-48f8-acc0-c7e036df5fdb")
+		(property "Sheetname" "Block Diagram"
+			(at 221.234 217.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_diagram.kicad_sch"
+			(at 221.234 222.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "blank_border.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBPBN0KALYQNBlQeQP/zQorIMI2Pou4jwpaYz/x2pg1hzEBLgAsACoABAAEAue9d9JQBmjI
+				+C3lkMYNnfFH2a9bRTLnPKikfbHtsn8EEAhdBkJUNNmMCMsc2rfo/uR5w/9Y4vBfls1y9rVWjjbo
+				K9eKOg3Z11MW9Gu1ohqzfbTdh/4B/aG/9FUelbasfm2zzM3yTgzzdC3tj5zzlk1dz34znl5r2bI/
+				R98NP7kTgVBkJGdEzP7XpxYr+52HVdrzYERaWx4SlSQq50EAf3E1u9LuMPehP8sc5hA9oMFoZI7U
+				KCxOIY0BgGYkh7oBzqTPiKry+jXSYG0vfFGQISiN2iqGIiW6Hn9ihRCFcsHlZFDA7gFuvZuFvTLJ
+				tkgQuygz2ZbHNLZNf3D5Mi5eHk1CfDrLpP/5rYcM4CU6OCHZbQ2aOcmwwpNUy4lsDASx+S7sLdo2
+				tIQu/NIHjEN8G/lHllYB|
+			)
+			(checksum "E8FD222DA85CA207E2C4D5ED84C5EE2F")
+		)
+	)
+)

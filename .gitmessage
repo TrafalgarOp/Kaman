@@ -1,0 +1,7 @@
+<type>(<scope>): <short description>
+
+# Types: hw, mech, feat, fix, docs, chore
+# Scopes: power, mcu, i2c, enclosure, gerber, sensor, etc.
+# -------------------------------------------------------------
+# Remember: Use present tense (e.g., "add", not "added").
+# Keep the title line under 50 characters.

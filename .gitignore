@@ -13,6 +13,8 @@ build/
 **/*.json
 **/*_autosave-*
 fp-info-cache
+hardware/cba/kaman/Template-backups/*.zip
+*.lck
 
 # --- Altium Temporaries ---
 History/
