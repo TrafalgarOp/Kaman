@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "b7abe575-2b7a-4e47-9046-9769d7102f9d")
 	(paper "A4")
 	(lib_symbols)
@@ -15,7 +15,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 33931be3-e09c-410c-817e-3ee7aeb0c0a4)
+		(uuid "33931be3-e09c-410c-817e-3ee7aeb0c0a4")
 	)
 	(rectangle
 		(start 85.09 140.97)
@@ -27,7 +27,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 4d5c0e18-d4e3-4cce-8f97-e246bcc01e58)
+		(uuid "4d5c0e18-d4e3-4cce-8f97-e246bcc01e58")
 	)
 	(rectangle
 		(start 85.09 84.074)
@@ -39,7 +39,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 54ced559-03c9-4ab1-ae68-982331d4e310)
+		(uuid "54ced559-03c9-4ab1-ae68-982331d4e310")
 	)
 	(rectangle
 		(start 27.686 84.074)
@@ -51,7 +51,7 @@
 		(fill
 			(type none)
 		)
-		(uuid a86bcc79-17ac-49fb-b6b8-6971feb23017)
+		(uuid "a86bcc79-17ac-49fb-b6b8-6971feb23017")
 	)
 	(text "Notes"
 		(exclude_from_sim no)
@@ -305,7 +305,7 @@
 		)
 		(uuid "fecbd4e5-dd88-4542-b97d-2c37c0fd7e23")
 	)
-	(text_box "Design Note\n"
+	(text_box "Function Note\n"
 		(exclude_from_sim no)
 		(at 228.6 120.142 0)
 		(size 20.32 15.24)
@@ -327,7 +327,7 @@
 		)
 		(uuid "407d0db4-b78c-4418-b121-2b987dcd4505")
 	)
-	(text_box "Design Note\n"
+	(text_box "Parts Note\n"
 		(exclude_from_sim no)
 		(at 183.388 120.142 0)
 		(size 20.32 15.24)
@@ -349,7 +349,7 @@
 		)
 		(uuid "4e8fadcd-7773-4b67-8d06-3961f215bcc4")
 	)
-	(text_box "Design Note\n"
+	(text_box "PCB Note\n"
 		(exclude_from_sim no)
 		(at 205.994 120.142 0)
 		(size 20.32 15.24)
@@ -371,7 +371,7 @@
 		)
 		(uuid "5fab60d9-ce6c-404f-bb10-a9c1ff3470ad")
 	)
-	(text_box "Design Note\n"
+	(text_box "Critical Note\n"
 		(exclude_from_sim no)
 		(at 251.206 120.142 0)
 		(size 20.32 15.24)
@@ -556,11 +556,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28")
 		(property "Sheetname" "Project Architecture"
 			(at 221.488 226.1104 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,6 +572,8 @@
 		)
 		(property "Sheetfile" "project_architecture.kicad_sch"
 			(at 221.488 231.2166 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,7 +582,7 @@
 			)
 		)
 		(instances
-			(project "Driver"
+			(project "Template"
 				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d"
 					(page "3")
 				)
@@ -598,11 +602,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f60c5075-700f-48f8-acc0-c7e036df5fdb")
 		(property "Sheetname" "Block Diagram"
 			(at 221.234 217.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,6 +618,8 @@
 		)
 		(property "Sheetfile" "block_diagram.kicad_sch"
 			(at 221.234 222.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +628,7 @@
 			)
 		)
 		(instances
-			(project "Driver"
+			(project "Template"
 				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d"
 					(page "2")
 				)
