@@ -15,6 +15,7 @@ build/
 fp-info-cache
 hardware/cba/kaman/Template-backups/*.zip
 *.lck
+hardware/cba/kaman/.history/
 
 # --- Altium Temporaries ---
 History/
