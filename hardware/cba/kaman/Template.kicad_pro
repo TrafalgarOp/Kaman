@@ -512,13 +512,35 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 10,
+        "name": "USB Diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(162, 255, 0)",
+        "tuning_profile": "",
+        "wire_width": 8
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(J4-D+-PadA6)": [
+        "USB Diff"
+      ],
+      "Net-(J4-D--PadA7)": [
+        "USB Diff"
+      ],
+      "Net-(U6-UD+)": [
+        "USB Diff"
+      ],
+      "Net-(U6-UD-)": [
+        "USB Diff"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -691,7 +713,7 @@
         "uuid": "b7abe575-2b7a-4e47-9046-9769d7102f9d"
       }
     ],
-    "used_designators": "L1,BT1-2,JP1-2,R1-9,AE1,D1-5,C1-12,SW1-2,#PWR1-23,Q1-3,U1-4",
+    "used_designators": "J4,L1,BT1-2,JP1-2,R1-12,AE1,D1-5,C1-13,C30-31,C33,SW1-2,#PWR1-32,#PWR39,#PWR41-42,#PWR54-56,#PWR59-60,Q1-3,U1-8",
     "variants": []
   },
   "sheets": [
