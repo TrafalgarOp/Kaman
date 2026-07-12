@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 115.57 123.19)
-		(size 27.94 17.78)
+		(at 115.824 101.6)
+		(size 27.686 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "06162593-d836-449e-9de8-3662ea444cd9")
 		(property "Sheetname" "Power"
-			(at 115.57 122.4784 0)
+			(at 115.824 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 115.57 141.5546 0)
+			(at 115.824 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47,52 +47,6 @@
 			(project "Template"
 				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 115.57 101.6)
-		(size 27.94 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "46a97965-87a8-47c4-981b-44403aab426a")
-		(property "Sheetname" "Interface"
-			(at 115.57 100.8884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "interface.kicad_sch"
-			(at 115.57 118.6946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Template"
-				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28"
-					(page "6")
 				)
 			)
 		)
