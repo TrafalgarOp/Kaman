@@ -578,7 +578,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5819WS"
+		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
 			)
@@ -601,7 +601,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5819WS"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -611,18 +611,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -633,7 +622,18 @@
 					)
 				)
 			)
-			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -655,7 +655,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323*"
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -666,7 +666,7 @@
 					)
 				)
 			)
-			(symbol "1N5819WS_0_1"
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -704,7 +704,7 @@
 					)
 				)
 			)
-			(symbol "1N5819WS_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1492,12 +1492,6 @@
 		(uuid "23c6b3a3-714b-423e-b952-969c2f2a4c87")
 	)
 	(junction
-		(at 27.94 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4538882e-f4f0-461c-b7ba-080de7e52bd2")
-	)
-	(junction
 		(at 26.67 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1521,41 +1515,15 @@
 		(color 0 0 0 0)
 		(uuid "eb4deb78-8508-4c7f-9744-ce52eac1ac0c")
 	)
-	(junction
-		(at 36.83 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff3b7883-aa2d-40bd-ad73-d4f4d57e9c8a")
-	)
 	(wire
 		(pts
-			(xy 35.56 21.59) (xy 36.83 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e1ae16-b058-4d00-bffb-612e63452d96")
-	)
-	(wire
-		(pts
-			(xy 36.83 21.59) (xy 36.83 26.67)
+			(xy 36.83 17.78) (xy 36.83 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47da00c7-8316-434e-86c4-766144a7a9cc")
-	)
-	(wire
-		(pts
-			(xy 27.94 17.78) (xy 27.94 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a16f08f-9de4-4fa6-a411-d72432fd06d3")
 	)
 	(wire
 		(pts
@@ -1636,16 +1604,6 @@
 			(type default)
 		)
 		(uuid "c2740667-f738-45ed-9e39-83b51f7ee499")
-	)
-	(wire
-		(pts
-			(xy 36.83 17.78) (xy 36.83 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5f740a5-183d-4807-832d-fa6c33c23c27")
 	)
 	(wire
 		(pts
@@ -1741,6 +1699,87 @@
 			(project "Template"
 				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 31.75 17.78 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3acd38ec-5d3e-49a7-bd65-21dd2ac14fe0")
+		(property "Reference" "D6"
+			(at 31.75 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS160-7"
+			(at 32.0675 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 31.75 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 31.75 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d9fa2be9-28b1-4c2d-ab97-2191e9d0eab7")
+		)
+		(pin "1"
+			(uuid "86840a5c-9718-436e-873e-123822f6594a")
+		)
+		(instances
+			(project "Template"
+				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2385,166 +2424,6 @@
 			(project "Template"
 				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 31.75 21.59 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b83f9e8d-c1bb-4f30-a3cf-e4cd659ef3fa")
-		(property "Reference" "D7"
-			(at 34.798 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819WT"
-			(at 32.0675 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 31.75 17.145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 31.75 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 31.75 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "128aed8b-0912-4379-9556-5d1d93de9d08")
-		)
-		(pin "2"
-			(uuid "fe8fd4ac-0bea-40f1-9145-89344e557f9f")
-		)
-		(instances
-			(project "Template"
-				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 31.75 17.78 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbb1f720-5ee1-4d69-91bf-cef2f99a5316")
-		(property "Reference" "D9"
-			(at 34.798 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819WT"
-			(at 32.0675 13.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 31.75 13.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 31.75 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 31.75 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "227b707b-9214-48a0-b880-17920c27bb4a")
-		)
-		(pin "2"
-			(uuid "1a2c619a-97d2-47ea-8314-795f7d1fdc26")
-		)
-		(instances
-			(project "Template"
-				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9"
-					(reference "D9")
 					(unit 1)
 				)
 			)
