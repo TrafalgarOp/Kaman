@@ -970,7 +970,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15090,7 +15090,7 @@
 		(pin "B12"
 			(uuid "a2a6ab8c-2c3a-49b8-9fef-fa60fb93da40")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "17008ae1-9344-4691-a9ac-620a686a1ae0")
 		)
 		(pin "A4"

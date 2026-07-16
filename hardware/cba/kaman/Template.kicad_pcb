@@ -163,7 +163,7 @@
 				)
 			)
 		)
-		(property "Description" "DC Barrel Jack with a mounting pin"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -180,12 +180,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9/deb4dfa8-0ee6-4d78-b630-199c44983f28")
 		(sheetname "/Project Architecture/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "MP" "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -489,7 +483,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -516,12 +510,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/d24549ff-21f5-4b8b-bf41-ab03ef5ff2fb")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -647,7 +635,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -674,12 +662,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9/ad2eee4d-6e38-4704-bb91-dc085a370684")
 		(sheetname "/Project Architecture/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -805,7 +787,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -832,12 +814,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/af78ea64-9912-4b75-b6fe-1070772a2d40")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -931,7 +907,7 @@
 		(descr "Hirose U.FL Coaxial (https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-01&productname=U.FL-R-SMT-1(01)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940668)")
 		(tags "Hirose U.FL Coaxial")
 		(property "Reference" "AE1"
-			(at 0 -3.2 90)
+			(at 0 -3.2 270)
 			(layer "F.SilkS")
 			(uuid "d4ca508f-9731-4a35-81b4-7236c70f62ad")
 			(effects
@@ -942,7 +918,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 0 3.2 90)
+			(at 0 3.2 270)
 			(layer "F.Fab")
 			(uuid "5b753380-0a7f-4734-9e59-3bd85812d5d3")
 			(effects
@@ -965,7 +941,7 @@
 				)
 			)
 		)
-		(property "Description" "Antenna"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -981,12 +957,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/cf260d28-9a0b-4c4c-aa2e-14c6485d0c9a")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1342,7 +1312,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1369,12 +1339,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/bf4d2872-0799-4c5d-8cdd-5c60f142b86f")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1502,7 +1466,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1518,12 +1482,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/eb997e1a-91c8-4cef-9a9f-fe05a644b7a5")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1795,7 +1753,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -1.8 90)
+			(at 0 -1.8 270)
 			(layer "F.SilkS")
 			(uuid "5bda7304-d02b-4abe-8db2-5232c17f3a18")
 			(effects
@@ -1806,7 +1764,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 90)
+			(at 0 1.9 270)
 			(layer "F.Fab")
 			(uuid "0986ef1e-ae80-4691-bbe8-de8102809ba8")
 			(effects
@@ -1829,7 +1787,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1846,14 +1804,8 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/b55494af-bb7f-40d2-b38d-a07572dbc6bc")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
-		(attr exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
@@ -2003,7 +1955,7 @@
 		(descr "SOT, 6 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=170, JEDEC MO-203, variant AB, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203)")
 		(tags "SOT TO_SOT_SMD SC-88 SOT-363 SC-70-6 US6 UMT6 S-Mini6 TSSOP6")
 		(property "Reference" "Q1"
-			(at 0 -1.8 90)
+			(at 0 -1.8 270)
 			(layer "F.SilkS")
 			(uuid "196838b0-8078-4de7-af6a-27d4fa7d1983")
 			(effects
@@ -2014,7 +1966,7 @@
 			)
 		)
 		(property "Value" "MMDT5551"
-			(at 0 1.8 90)
+			(at 0 1.8 270)
 			(layer "F.Fab")
 			(uuid "7fc20de6-ec77-4857-98ba-3ca1e1c1e24d")
 			(effects
@@ -2024,8 +1976,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30172.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "82bb2420-076d-44c4-ae99-cd731d397b16")
@@ -2035,8 +1987,8 @@
 				)
 			)
 		)
-		(property "Description" "200mA IC, 160V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f84f0dc5-57f4-496b-bd0b-9cabe0cdc80e")
@@ -2047,7 +1999,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fd7b8b6b-555d-455e-b2b2-93aa902ba13b")
@@ -2062,16 +2014,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/d26ffa39-9d23-4fe2-9257-2bdbaf4f17ad")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "6" "1")
-			)
-			(unit
-				(name "B")
-				(pins "5" "3" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2369,7 +2311,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 -1.43 90)
+			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(uuid "0a955499-9b2f-4caf-a9be-869c2d6e04d1")
 			(effects
@@ -2380,7 +2322,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 90)
+			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "a0950d03-a72c-46b3-a9b0-11108b7ef93b")
 			(effects
@@ -2391,7 +2333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38c056f5-9949-431d-a87e-4f5b628b4243")
@@ -2401,8 +2343,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "efc9064c-0f7c-454c-8968-6c736ce588a4")
@@ -2413,7 +2355,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f1c2f33b-d543-4cfc-8af1-d6a0a085b85a")
@@ -2428,12 +2370,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/5d2f7c2d-98df-4f28-bc8a-de652028d1c7")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2479,7 +2415,7 @@
 			(uuid "1393111d-351b-48b4-877a-dba48d5c1b67")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "8f303e5d-2fd9-4d9a-a03d-7c1efb17b958")
 			(effects
@@ -2527,7 +2463,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 0 -1.43 90)
+			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(uuid "21ddf226-c94c-4f87-8dba-ad2464ca53b4")
 			(effects
@@ -2538,7 +2474,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 0 1.43 90)
+			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "6530cca4-f13a-4072-a355-f485ef9c1285")
 			(effects
@@ -2549,7 +2485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5de43825-044e-4378-ac9e-d475f6231a84")
@@ -2559,8 +2495,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69501f6f-9b8c-4ea3-88da-4fde8295e671")
@@ -2571,7 +2507,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "da045cc4-8598-47c9-9b7c-6381954ec4ba")
@@ -2586,12 +2522,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/31aba53d-b31c-4a89-bf25-ecc8fbf40880")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2637,7 +2567,7 @@
 			(uuid "85574387-0f19-4e5e-974c-37abc900e6d3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "79f5ef8b-4b1e-4695-b5d5-f4baf62c1761")
 			(effects
@@ -2717,7 +2647,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2744,12 +2674,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/d116a357-ac16-45a0-b8ea-9fccacd513b0")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2874,7 +2798,7 @@
 			(uuid "d984f7b1-4fc8-49e8-beb1-6672c237559d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 0)
+			(at 0 3.81 180)
 			(layer "F.Fab")
 			(uuid "33b1b5e7-0ecc-4b55-8f59-94c7417cacb9")
 			(effects
@@ -2980,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3007,12 +2931,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/6389a38e-e965-43e9-8650-906b2ba87418")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3140,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3167,12 +3085,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/2d9ddb31-c8eb-4fc3-b1d6-fa342659586f")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3266,7 +3178,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.43 90)
+			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(uuid "c559613d-8917-4e53-ae0e-ae93eb9fb36f")
 			(effects
@@ -3277,7 +3189,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.43 90)
+			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "a76d5c02-6404-4a65-a8e8-5d553666c29d")
 			(effects
@@ -3288,7 +3200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ae62468-39bf-49db-b921-9ab365c72986")
@@ -3298,8 +3210,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2bbef3e0-c009-48cc-8fc7-da745381cd82")
@@ -3310,7 +3222,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "76a58f02-c54d-40ff-a5d6-fdbef4406ae4")
@@ -3325,12 +3237,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/1ed18c53-5a7e-4477-a57c-111bd98e4ba5")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3376,7 +3282,7 @@
 			(uuid "3a43185b-ad11-4a2b-b8bd-7d65eae57147")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "3b109bae-f7a2-4259-acb8-43592d91d7f7")
 			(effects
@@ -3424,7 +3330,7 @@
 		(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW1"
-			(at 0 -2.6 0)
+			(at 0 -2.6 180)
 			(layer "F.SilkS")
 			(uuid "1dba13aa-b24d-496a-b3ae-09f8994221c9")
 			(effects
@@ -3435,7 +3341,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 2.6 0)
+			(at 0 2.6 180)
 			(layer "F.Fab")
 			(uuid "f8217522-7d4a-49f9-8479-de23d542d163")
 			(effects
@@ -3458,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3474,12 +3380,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/916aec7e-a480-4ad5-a594-8d19e95a7a84")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3685,7 +3585,7 @@
 			(uuid "d9287091-65ce-4836-a214-ba561ac0824b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "3b26fb18-0850-42aa-a1b1-489e70e82bd3")
 			(effects
@@ -3751,7 +3651,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.38 0)
+			(at 0 -2.38 180)
 			(layer "F.SilkS")
 			(uuid "f68c8743-7691-4043-ab9f-1a065b06f085")
 			(effects
@@ -3762,7 +3662,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 0 10 0)
+			(at 0 10 180)
 			(layer "F.Fab")
 			(uuid "c66759d7-f30a-408f-83a1-78ce502a7690")
 			(effects
@@ -3773,7 +3673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53357eec-a0c0-4a81-8e4a-2bc9b83f0e0a")
@@ -3783,8 +3683,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ffa0b72-de62-4727-983b-2cbc97fb455c")
@@ -3795,7 +3695,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f8818590-04af-4740-b904-ae5ad137d595")
@@ -3810,12 +3710,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/77a9d42c-0fe9-4f7d-ab0f-9de68414e2a3")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3940,7 +3834,7 @@
 			(uuid "c18ff88b-b18d-4d27-b6d2-4de1c5106858")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 90)
+			(at 0 3.81 270)
 			(layer "F.Fab")
 			(uuid "d2f61162-60f7-4a43-b2d4-d7bc7125409b")
 			(effects
@@ -4014,7 +3908,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C13"
-			(at 0 -1.43 90)
+			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(uuid "18ee69a9-5bb9-4fb2-8285-b77d0fcc6fc4")
 			(effects
@@ -4025,7 +3919,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 90)
+			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "d3c2cf23-17de-4038-8203-9ba403ae9115")
 			(effects
@@ -4036,7 +3930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd7c531e-50c3-4c7b-8450-0fe6ae0ad7f1")
@@ -4046,8 +3940,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a04215f0-77f0-4524-9967-211ab10f0dab")
@@ -4058,7 +3952,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6b176b68-d8de-445e-bcf2-5f1b0e3a8722")
@@ -4073,12 +3967,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/346c2932-8a28-44fe-a3e7-b6d3be390d8c")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4124,7 +4012,7 @@
 			(uuid "45fa0907-d38f-4a86-abaf-48a8eae3d5be")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "e0fad02d-7297-4dce-bf3c-b34f11e6ac0e")
 			(effects
@@ -4195,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_mini-1u_datasheet_en.pdf"
+		(property "Datasheet" ""
 			(at 0 -2.55 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4208,7 +4096,7 @@
 				)
 			)
 		)
-		(property "Description" "RF Module, ESP32-C6 SoC, Wi-Fi 802.11b/g/n/ax, Bluetooth, BLE, Zigbee, Thread, 32-bit, 3.3V, SMD, onboard antenna"
+		(property "Description" ""
 			(at 0 -2.55 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4225,16 +4113,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/13ffd0ff-1cbb-47f3-823b-3d9161f9dcc9")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "12" "13" "5" "6" "9" "10" "15" "16" "22" "23" "32" "33" "34"
-					"35" "3" "36" "37" "38" "39" "40" "41" "47" "42" "43" "44" "45" "46"
-					"2" "48" "49" "50" "51" "52" "53" "1" "11" "14" "4" "7" "21" "31" "30"
-					"17" "18" "19" "20" "24" "25" "26" "27" "28" "29"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5065,7 +4943,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-C6-MINI-1.step"
+		(model "${KICAD_USER_3DMODEL}/RF_Module.3dshapes/ESP32-C6-MINI-1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5073,7 +4951,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5105,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5118,7 +4996,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5135,14 +5013,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/78708e35-221b-4224-ad28-c53de6912445")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S1" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
-					"A6" "B6" "A8" "B8"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5497,15 +5367,15 @@
 			(uuid "64cfadce-329a-4b6a-87af-29e8d0f435ce")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step"
+		(model "${KICAD_USER_3DMODEL}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5548,7 +5418,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5575,12 +5445,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/3ce37965-f6a2-4774-a21f-ae59c6807035")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5706,7 +5570,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5733,12 +5597,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/d759cfc2-29af-4e7e-b926-3d04271c0d1c")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5853,7 +5711,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8870-SEEPROM-AT24CS64-Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5864,7 +5722,7 @@
 				)
 			)
 		)
-		(property "Description" "I2C Serial EEPROM, 64Kb (8192x8) with Unique Serial Number, SO8"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5891,12 +5749,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/dd908b24-6f82-4bf9-8c94-8f67b5be72cc")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "8" "4" "5" "6" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6104,7 +5956,7 @@
 			(uuid "f14d03c2-ccab-47d9-8073-84a1c73dc4fd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "01b85afb-c2de-4601-acba-96761690d1a2")
 			(effects
@@ -6214,7 +6066,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at 0 -1.43 90)
+			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(uuid "c65f060e-2c02-4609-b213-57f770e8adde")
 			(effects
@@ -6225,7 +6077,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.43 90)
+			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "066814d8-47fc-4d96-88e5-2bf4c2bc98ce")
 			(effects
@@ -6236,7 +6088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f34cab3-0092-446a-a97d-1d363377f90c")
@@ -6246,8 +6098,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a508aadb-6913-40e9-961a-ff572258736d")
@@ -6258,7 +6110,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "30e355bf-5092-46fb-ac5a-d0fbc7210eb5")
@@ -6273,12 +6125,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/8f46906f-10df-49d6-a6b7-e06af3214f19")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6324,7 +6170,7 @@
 			(uuid "ad38b424-f7e2-44da-96bd-e58aca1131cf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "90a96a0e-89a2-4dbc-9b3f-f06f0d27fb9e")
 			(effects
@@ -6372,7 +6218,7 @@
 		(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf)")
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U6"
-			(at 0 -5.9 90)
+			(at 0 -5.9 270)
 			(layer "F.SilkS")
 			(uuid "f7348903-6eee-4616-9ef6-fd061adda493")
 			(effects
@@ -6383,7 +6229,7 @@
 			)
 		)
 		(property "Value" "CH340C"
-			(at 0 5.9 90)
+			(at 0 5.9 270)
 			(layer "F.Fab")
 			(uuid "7194c195-b715-425e-8f0b-233b60a32fa8")
 			(effects
@@ -6393,8 +6239,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d135ede5-015b-4c88-9c32-ecd933b5f94b")
@@ -6404,8 +6250,8 @@
 				)
 			)
 		)
-		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "64b1f75f-cad4-4e61-917b-a3b8b9c30898")
@@ -6416,7 +6262,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c69e2e2a-2d21-4349-8ee4-02b779484d05")
@@ -6431,14 +6277,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/cb42a1bf-df5a-4aa8-a0a9-3fed2dbd4b3e")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "15" "5" "6" "7" "8" "16" "4" "1" "2" "3" "9" "10" "11" "12" "13"
-					"14"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6836,7 +6674,7 @@
 		(descr "http://www.diodes.com/_files/datasheets/ds30497.pdf")
 		(tags "PowerDI diode vishay")
 		(property "Reference" "D6"
-			(at 0 -2 90)
+			(at 0 -2 270)
 			(layer "F.SilkS")
 			(uuid "b0fb437c-5da5-496d-9e9e-9ad8ef8f11b0")
 			(effects
@@ -6847,7 +6685,7 @@
 			)
 		)
 		(property "Value" "DFLS160-7"
-			(at 0 2.5 90)
+			(at 0 2.5 270)
 			(layer "F.Fab")
 			(uuid "5ce78374-2f41-44a3-a291-fbe374792aba")
 			(effects
@@ -6870,7 +6708,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6887,12 +6725,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9/3acd38ec-5d3e-49a7-bd65-21dd2ac14fe0")
 		(sheetname "/Project Architecture/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7076,7 +6908,7 @@
 			(uuid "c6f1491d-5d0d-430b-acad-98748b799c28")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at 0 -2 270)
 			(layer "F.Fab")
 			(uuid "3ec4cf63-1e5b-4d61-b8f7-b139571196f6")
 			(effects
@@ -7147,7 +6979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7160,7 +6992,7 @@
 				)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7177,12 +7009,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/71e1ca26-8b35-4add-882b-7257908b8537")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "2" "6" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7408,7 +7234,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "R13"
-			(at 0 -1.43 90)
+			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(uuid "928e15a3-23d5-4741-8da0-db65791d95d9")
 			(effects
@@ -7419,7 +7245,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 0 1.43 90)
+			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "96fd8b97-4194-4a75-8b3f-5bd7daad3270")
 			(effects
@@ -7430,7 +7256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c0e36f4-f84f-4ef8-91b1-09241f22e3c5")
@@ -7440,8 +7266,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1052643-545c-4d0f-9162-22f9d038f115")
@@ -7452,7 +7278,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6898c3df-50c0-4422-ba79-fe6b7933bccf")
@@ -7467,12 +7293,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/5e12ebbf-4b16-487f-9f6b-1bcd4361c557")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7518,7 +7338,7 @@
 			(uuid "11dc300a-e0c7-45cd-b712-db103cf27d83")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "c4331b49-70f5-4a9c-9e8f-65dded4f7074")
 			(effects
@@ -7598,7 +7418,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7625,12 +7445,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9/bfbe6332-2d68-40d4-beef-32762708a142")
 		(sheetname "/Project Architecture/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7724,7 +7538,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 -1.8 90)
+			(at 0 -1.8 270)
 			(layer "F.SilkS")
 			(uuid "da9e62b2-dd84-46e6-8b88-20fadd2d45a7")
 			(effects
@@ -7735,7 +7549,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 90)
+			(at 0 1.9 270)
 			(layer "F.Fab")
 			(uuid "f54cc275-6c49-4051-a0ee-c769703cd504")
 			(effects
@@ -7758,7 +7572,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7775,14 +7589,8 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/70579d46-cd59-49a9-9c6d-483a635ec9e8")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
-		(attr exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
@@ -7932,7 +7740,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D8"
-			(at 0 -1.85 0)
+			(at 0 -1.85 180)
 			(layer "F.SilkS")
 			(uuid "1053ea6f-a953-4167-b7a0-dc8c69b0fbc8")
 			(effects
@@ -7943,7 +7751,7 @@
 			)
 		)
 		(property "Value" "SD05C-01F"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 180)
 			(layer "F.Fab")
 			(uuid "6a8ffa10-3a2b-4b87-bf89-c48feff3f65f")
 			(effects
@@ -7953,7 +7761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7966,7 +7774,7 @@
 				)
 			)
 		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7983,12 +7791,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9/aa61cd5a-4f99-40ce-94e6-38ea3914dea5")
 		(sheetname "/Project Architecture/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8162,7 +7964,7 @@
 			(uuid "73b9597c-80ef-499e-ac69-75016faaf204")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 180)
 			(layer "F.Fab")
 			(uuid "b36843f1-c454-4bb8-aa1f-90d2046dc7cd")
 			(effects
@@ -8212,7 +8014,7 @@
 		(descr "SOT-89-3 Handsoldering")
 		(tags "SOT-89-3 Handsoldering")
 		(property "Reference" "U5"
-			(at 0 -3.5 0)
+			(at 0 -3.5 180)
 			(layer "F.SilkS")
 			(uuid "f41a70ba-e90c-4369-821e-b587311eb89f")
 			(effects
@@ -8223,7 +8025,7 @@
 			)
 		)
 		(property "Value" "AZ1117-3.3"
-			(at 0 3.5 0)
+			(at 0 3.5 180)
 			(layer "F.Fab")
 			(uuid "194e0e3c-efe1-4040-a1a4-b01d12e2cb43")
 			(effects
@@ -8233,7 +8035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8246,7 +8048,7 @@
 				)
 			)
 		)
-		(property "Description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8263,12 +8065,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9/ac6e3c4e-5bf0-4196-ae23-2478081847dc")
 		(sheetname "/Project Architecture/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8424,7 +8220,7 @@
 			(uuid "38084817-9014-48c9-949e-47e1e0639b89")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.2 0 90)
+			(at 0.2 0 270)
 			(layer "F.Fab")
 			(uuid "f67bf298-aabd-4cf9-a175-6f20309188a6")
 			(effects
@@ -8530,7 +8326,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8557,12 +8353,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/36d139c1-bd0b-498a-9f57-829572e6d91f")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8688,7 +8478,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8715,12 +8505,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/935626d2-500c-49f7-88bd-aacee04db78c")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8835,7 +8619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8848,7 +8632,7 @@
 				)
 			)
 		)
-		(property "Description" "GNSS Module NEO M8, VCC 2.7V to 3.6V"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8865,14 +8649,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/d3f776bb-1e5d-4549-be9e-8d49e1d5d562")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "5" "6" "20" "21" "18" "19" "4" "1" "8" "2" "23" "22" "7" "24"
-					"13" "12" "10" "9" "15" "16" "17" "14" "11" "3"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9309,7 +9085,7 @@
 			(uuid "0295ed57-4cdb-4495-a9a5-a63a7e892a7f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_GPS.3dshapes/ublox_NEO.step"
+		(model "${KICAD_USER_3DMODEL}/RF_GPS.3dshapes/ublox_NEO.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9317,7 +9093,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -9360,7 +9136,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9387,12 +9163,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/57e690bf-4ce4-4d83-82fa-78bd6abcdafb")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9520,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9537,12 +9307,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/6a82b299-56e2-4818-b782-ce4a47102631")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9808,7 +9572,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9831,29 +9595,10 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9142acab-4179-4ff6-8bca-f4f1f85d77d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/07e90277-7830-41d7-81ac-37450a890e59")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10030,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10057,12 +9802,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/06162593-d836-449e-9de8-3662ea444cd9/9e760873-f97c-402d-bd88-3882b3a4445d")
 		(sheetname "/Project Architecture/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10239,7 +9978,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
-			(at 0 1.68 0)
+			(at 0 1.68 180)
 			(layer "B.SilkS")
 			(uuid "dc0cf031-bffc-42b5-b801-e032b8793a8f")
 			(effects
@@ -10251,7 +9990,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 -1.68 0)
+			(at 0 -1.68 180)
 			(layer "B.Fab")
 			(uuid "aa0be455-4324-4bb8-b7ba-a137f7a3f183")
 			(effects
@@ -10263,7 +10002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f7f5d8db-514f-4e5a-bda6-cdba3bddff3a")
@@ -10274,8 +10013,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6ba682ea-337d-4bb9-b0b9-e418313ad8d6")
@@ -10287,7 +10026,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "0060b5ac-0176-4e5d-b285-1efefb251d29")
@@ -10303,12 +10042,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/93f76ebf-d714-4a5d-8018-18b179095494")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10354,7 +10087,7 @@
 			(uuid "3fd739f5-2425-4963-a868-21f46c739a35")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "00a02877-eeaa-4492-afd9-30dc478c02d4")
 			(effects
@@ -10403,7 +10136,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 1.16 0)
+			(at 0 1.16 180)
 			(layer "B.SilkS")
 			(uuid "41e570d5-7971-4241-af60-763315bb2337")
 			(effects
@@ -10415,7 +10148,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 0)
+			(at 0 -1.16 180)
 			(layer "B.Fab")
 			(uuid "ae7dbd01-d418-4791-8b76-58e3a1966d07")
 			(effects
@@ -10427,7 +10160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0f3609a3-e3f1-4180-8999-4c0ff3dcf9d9")
@@ -10438,8 +10171,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "351229f7-4599-4860-94d2-08a3667419ef")
@@ -10451,7 +10184,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "24c3196f-c670-498a-8385-77fe4ac1aa97")
@@ -10467,12 +10200,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc/41b760a1-39fd-40bd-a68e-30be21767e05")
 		(sheetname "/Project Architecture/IO Port/")
 		(sheetfile "io_port.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10518,7 +10245,7 @@
 			(uuid "c3d9f5f6-b607-47d0-b42a-fc70447a6d3d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "dbe7fa47-6769-4746-8763-59e17fbe7f9e")
 			(effects
@@ -10590,7 +10317,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10604,7 +10331,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10622,12 +10349,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/12710c01-1490-43cf-afb8-18308f909f35")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10852,7 +10573,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0 1.43 0)
+			(at 0 1.43 180)
 			(layer "B.SilkS")
 			(uuid "2a46f6c1-ed51-45e2-9e37-b9214136090d")
 			(effects
@@ -10864,7 +10585,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.43 0)
+			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "19727e38-f12e-4036-a98d-d9713f8493cd")
 			(effects
@@ -10876,7 +10597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9f8df2fd-bcc1-41d6-8e4f-35b312fdaa04")
@@ -10887,8 +10608,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e817e5da-0130-42e1-b6cc-a79953f85f49")
@@ -10900,7 +10621,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "44d23c4d-5747-48fb-95bc-1708d7902d3c")
@@ -10916,12 +10637,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/e050d0ca-c217-47c8-99ce-283fbab506d3")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10967,7 +10682,7 @@
 			(uuid "148c8611-a253-4183-9a0d-b02c34489db2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "3e6b756c-c424-45fa-adfd-f848f5529c75")
 			(effects
@@ -11016,7 +10731,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at 0 1.68 0)
+			(at 0 1.68 180)
 			(layer "B.SilkS")
 			(uuid "10bbe0eb-b0e1-4b8d-bd98-b707d66e647c")
 			(effects
@@ -11028,7 +10743,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 -1.68 0)
+			(at 0 -1.68 180)
 			(layer "B.Fab")
 			(uuid "8fda3cd8-52c8-4bfc-a340-e4d598d237e2")
 			(effects
@@ -11040,7 +10755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a67f97ab-3f64-4a51-9eaf-beb2688fecd0")
@@ -11051,8 +10766,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bc49560c-ef47-45bb-868b-8266ae4bf75f")
@@ -11064,7 +10779,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b7d77938-d852-4378-bce5-e29787f3b9c3")
@@ -11080,12 +10795,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/c16b9cc9-19b8-4397-85df-22f6b9ce6c37")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11131,7 +10840,7 @@
 			(uuid "bb2e7a54-5e39-4f60-b675-6826b38fdf6f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "d53f5706-6ab7-4298-b340-211a752e139d")
 			(effects
@@ -11180,7 +10889,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at 0 1.43 90)
+			(at 0 1.43 270)
 			(layer "B.SilkS")
 			(uuid "974294de-cd4f-4ac2-b584-e7c0403b738b")
 			(effects
@@ -11192,7 +10901,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -1.43 90)
+			(at 0 -1.43 270)
 			(layer "B.Fab")
 			(uuid "7dffe857-20c9-489d-ac70-1ab5866ea4a0")
 			(effects
@@ -11204,7 +10913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "87eb2f05-e27b-4ce1-9696-9e9fc23954d6")
@@ -11215,8 +10924,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "351bbf5b-786e-4d0e-8077-2246b1e4050a")
@@ -11228,7 +10937,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "cf1cf29a-c4e8-42e2-8412-a8bd339dd53f")
@@ -11244,12 +10953,6 @@
 		(path "/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/90dd7580-04ad-4624-a4b9-f466dddb8241/448db2e2-3541-4712-83f5-c8fe97b503bf")
 		(sheetname "/Project Architecture/MCU & GPS/")
 		(sheetfile "mcu_gps.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11295,7 +10998,7 @@
 			(uuid "9b5c15dd-dbae-47f6-8c49-927d6bc50c88")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(uuid "ab83104b-8d31-4dbb-a7a8-f734c83e9910")
 			(effects
