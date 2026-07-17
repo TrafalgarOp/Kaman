@@ -268,6 +268,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -2914,12 +3037,6 @@
 		(uuid "993bf739-44c6-41f5-a0e9-c7987c4d0a1d")
 	)
 	(junction
-		(at 73.66 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b228c9a-45ca-4ae9-9166-06883808618f")
-	)
-	(junction
 		(at 55.88 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2964,6 +3081,10 @@
 	(no_connect
 		(at 31.75 45.72)
 		(uuid "e8b96988-698a-4d99-ad6b-2bf9a7351128")
+	)
+	(no_connect
+		(at 68.58 71.12)
+		(uuid "fc26af8d-4d84-42f9-b0a0-df8d211c2793")
 	)
 	(wire
 		(pts
@@ -3017,16 +3138,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 38.1) (xy 68.58 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2839cf87-9dbd-468c-9509-882ea434667d")
-	)
-	(wire
-		(pts
 			(xy 81.28 30.48) (xy 81.28 29.21)
 		)
 		(stroke
@@ -3067,16 +3178,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 40.64) (xy 68.58 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4876478b-42cf-4552-acee-72a06bb0243c")
-	)
-	(wire
-		(pts
 			(xy 92.71 27.94) (xy 93.98 27.94)
 		)
 		(stroke
@@ -3104,6 +3205,16 @@
 			(type default)
 		)
 		(uuid "7cecc447-75f9-49b4-ad90-b7d4f910caf7")
+	)
+	(wire
+		(pts
+			(xy 52.07 38.1) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f66d7e5-e653-4f45-bee0-eec1722572ac")
 	)
 	(wire
 		(pts
@@ -3207,6 +3318,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 38.1) (xy 93.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02cea7f-5b8f-418f-8d54-95b49d409096")
+	)
+	(wire
+		(pts
 			(xy 21.59 82.55) (xy 21.59 83.82)
 		)
 		(stroke
@@ -3247,26 +3368,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 33.02) (xy 73.66 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd78b0e4-c761-400a-b4a6-b5826fff91d8")
-	)
-	(wire
-		(pts
-			(xy 78.74 38.1) (xy 93.98 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddbf3268-c322-4901-82f5-588dd87094e7")
-	)
-	(wire
-		(pts
 			(xy 20.32 83.82) (xy 21.59 83.82)
 		)
 		(stroke
@@ -3284,6 +3385,16 @@
 			(type default)
 		)
 		(uuid "e53f2e27-226e-47b7-93ad-9a37e564d0f3")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc5965e-54a1-456a-8550-f9c56125e7a3")
 	)
 	(wire
 		(pts
@@ -13460,6 +13571,46 @@
 			"H+fjfJCXGP8v1Jd5JgVFR1kAAAAASUVORK5CYII="
 		)
 	)
+	(label "USB_N"
+		(at 80.01 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "259af1af-bd74-4eb2-b827-e1f0dc415ef4")
+	)
+	(label "USB2_P"
+		(at 54.61 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c510c6b-1608-4a16-84b5-dac86daa61c3")
+	)
+	(label "USB2_N"
+		(at 54.61 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8462772a-f841-4162-80f5-72e2808ab271")
+	)
+	(label "USB_P"
+		(at 80.01 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae14e960-a5b5-4c96-aee7-9c54d98d3ade")
+	)
 	(global_label "SDA Oled"
 		(shape bidirectional)
 		(at 31.75 83.82 0)
@@ -13649,148 +13800,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 82.55 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04962cbe-2f52-4358-b65e-57642a78a614")
-		(property "Netclass" "USB Diff"
-			(at 83.2485 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -109.22 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 53.34 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3408827e-b996-4b23-b8cf-e4a9f7ee1b7b")
-		(property "Netclass" "USB Diff"
-			(at 54.0385 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -138.43 -29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 53.34 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69529604-2bc4-4082-94dc-7a8a85a8fb48")
-		(property "Netclass" "USB Diff"
-			(at 54.0385 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -138.43 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 82.55 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5cc95cd-84d9-48aa-af56-f72ae11e20f4")
-		(property "Netclass" "USB Diff"
-			(at 83.2485 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -109.22 -29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
 			)
 		)
 	)
@@ -14108,85 +14117,6 @@
 			(project "Template"
 				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68.58 33.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41b760a1-39fd-40bd-a68e-30be21767e05")
-		(property "Reference" "C10"
-			(at 66.802 27.432 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 68.072 29.464 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 72.39 32.0548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68.58 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4225777-1f8c-47c3-8d67-2cf46e9d7f58")
-		)
-		(pin "2"
-			(uuid "3e2a5a15-96b6-4474-a296-c09a471927ab")
-		)
-		(instances
-			(project "Template"
-				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -15903,8 +15833,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 64.77 33.02 0)
+		(lib_id "Connector:TestPoint")
+		(at 93.98 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15913,32 +15843,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e1c7a639-9331-488d-93d8-d6989ec818f2")
-		(property "Reference" "#PWR026"
-			(at 64.77 39.37 0)
-			(hide yes)
+		(uuid "dffe40db-6488-472f-9f5a-496a53e91c6f")
+		(property "Reference" "TP1"
+			(at 96.52 110.9979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 64.7699 36.83 90)
-			(hide yes)
+		(property "Value" "TestPoint"
+			(at 96.52 113.5379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.77 33.02 0)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 99.06 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15949,7 +15878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 33.02 0)
+			(at 99.06 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15959,8 +15888,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 33.02 0)
+		(property "Description" "test point"
+			(at 93.98 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15971,12 +15900,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a319922b-40ce-40d7-8e90-725ed02e18a3")
+			(uuid "91a76901-7d19-42f3-8cce-6baef4c73f31")
 		)
 		(instances
 			(project "Template"
 				(path "/b7abe575-2b7a-4e47-9046-9769d7102f9d/c3e404eb-2e1f-4ab9-8da3-bc1a9ff0af28/5567a483-a138-4241-99fb-eb385b2c8ebc"
-					(reference "#PWR026")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

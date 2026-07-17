@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 1.05,
+          "width": 2.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 2.0,
+          "corner_radius": 0.2,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.3,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -210,7 +210,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -525,35 +529,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 10,
-        "name": "USB Diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(162, 255, 0)",
-        "tuning_profile": "",
-        "wire_width": 8
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(J4-D+-PadA6)": [
-        "USB Diff"
-      ],
-      "Net-(J4-D--PadA7)": [
-        "USB Diff"
-      ],
-      "Net-(U6-UD+)": [
-        "USB Diff"
-      ],
-      "Net-(U6-UD-)": [
-        "USB Diff"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -726,7 +708,7 @@
         "uuid": "b7abe575-2b7a-4e47-9046-9769d7102f9d"
       }
     ],
-    "used_designators": "J1-6,L1,BT1-3,JP1-2,R1-13,AE1,D1-11,C1-15,C30-31,C33,SW1-2,#PWR1-46,#PWR54-56,#PWR59-60,Q1-3,U1-8",
+    "used_designators": "J1-6,L1,BT1-3,TP1,JP1-2,R1-13,AE1,D1-11,C1-15,C30-31,C33,SW1-2,#PWR1-46,#PWR54-56,#PWR59-60,Q1-3,U1-8",
     "variants": []
   },
   "sheets": [
