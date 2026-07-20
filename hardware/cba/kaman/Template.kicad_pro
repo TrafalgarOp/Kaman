@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.3,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.3,
+          "thermal_relief_gap": 0.2,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -210,7 +210,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.35,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -704,7 +708,7 @@
         "uuid": "b7abe575-2b7a-4e47-9046-9769d7102f9d"
       }
     ],
-    "used_designators": "J1-6,L1,BT1-3,TP1,JP1-2,R1-15,AE1-3,D1-11,C1-18,C30-31,C33,SW1-3,#PWR1-56,#PWR59-60,Q1-3,U1-9",
+    "used_designators": "U1-9,Q1-3,#PWR1-56,#PWR59-60,SW1-3,C1-18,C30-31,C33,D1-11,AE1-3,R1-16,JP1-2,TP1-2,BT1-3,L1,J1-6",
     "variants": []
   },
   "sheets": [
