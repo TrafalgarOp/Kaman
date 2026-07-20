@@ -177,7 +177,7 @@
 		)
 		(uuid "4e74076a-b560-4ef1-b3b4-694dc23f4ecd")
 	)
-	(text "Date"
+	(text "17/6/2026"
 		(exclude_from_sim no)
 		(at 257.048 30.48 0)
 		(effects
@@ -293,7 +293,7 @@
 		)
 		(uuid "f7b1ab92-01ad-4131-9fd1-3fc91b6805de")
 	)
-	(text "Revision Number"
+	(text "0.1"
 		(exclude_from_sim no)
 		(at 179.324 29.972 0)
 		(effects
